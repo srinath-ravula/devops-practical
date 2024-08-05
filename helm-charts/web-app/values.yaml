@@ -1,0 +1,17 @@
+appName: webapp
+  
+replicaCount: 1
+
+image:
+  repository: 730335504577.dkr.ecr.ap-south-1.amazonaws.com/nodejs-app 
+  pullPolicy: IfNotPresent
+  tag: latest
+container:
+  port: 3000
+
+service:
+  type: ClusterIP
+  port: 80
+  targetport: 3000
+
+
