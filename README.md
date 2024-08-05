@@ -99,3 +99,6 @@ Here i used to tested the app using curl, as i created private cluster, i need t
 
 ![alt text](<image (10).png>)
 
+##Pending items
+
+- Using anisble and packer to build the custom image - due to time constraints and my current  working timings didn't allow me to work on this, i'll difinatly attempt near feature
