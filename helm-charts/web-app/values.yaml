@@ -3,7 +3,7 @@ appName: webapp
 replicaCount: 1
 
 image:
-  repository: 730335504577.dkr.ecr.ap-south-1.amazonaws.com/nodejs-app 
+  repository: XXXXXXXXXXXX.dkr.ecr.ap-south-1.amazonaws.com/nodejs-app 
   pullPolicy: IfNotPresent
   tag: latest
 container:
